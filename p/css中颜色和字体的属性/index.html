@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Css</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="颜色的属性 颜色的表示方法一：颜色名 1 2 3 4 p{ /* 颜色的第一种表示方式，直接使用颜色名字，这种方法基本不用*/ color: red; } 颜色的表示方法二：rgb，rgba 1 2 3 4 5 6 7 8 /* 颜色的第二种表示方式，使用rgb，可以填充数字也可以填充百分比 r表示红色，g表示绿色，b表示蓝色 a表示透明度*/ h1{ color:rgba(5,23,12,20); } h2{ color:rgb(12%,13%,14%) } 颜色的表示方法三：十六进制 格式为 #rrggbb(aa) , 如果表示颜色的前两位相同，比如ff，可以简写成一个。如果前三个颜色简写，那么透明度也要进行简写\n">
+<title>CSS中颜色和字体的属性</title>
 
-<link rel='canonical' href='https://Shinku00721.github.io/p/css/'>
+<link rel='canonical' href='https://Shinku00721.github.io/p/css%E4%B8%AD%E9%A2%9C%E8%89%B2%E5%92%8C%E5%AD%97%E4%BD%93%E7%9A%84%E5%B1%9E%E6%80%A7/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Css">
-<meta property='og:description' content="">
-<meta property='og:url' content='https://Shinku00721.github.io/p/css/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="CSS中颜色和字体的属性">
+<meta property='og:description' content="颜色的属性 颜色的表示方法一：颜色名 1 2 3 4 p{ /* 颜色的第一种表示方式，直接使用颜色名字，这种方法基本不用*/ color: red; } 颜色的表示方法二：rgb，rgba 1 2 3 4 5 6 7 8 /* 颜色的第二种表示方式，使用rgb，可以填充数字也可以填充百分比 r表示红色，g表示绿色，b表示蓝色 a表示透明度*/ h1{ color:rgba(5,23,12,20); } h2{ color:rgb(12%,13%,14%) } 颜色的表示方法三：十六进制 格式为 #rrggbb(aa) , 如果表示颜色的前两位相同，比如ff，可以简写成一个。如果前三个颜色简写，那么透明度也要进行简写\n">
+<meta property='og:url' content='https://Shinku00721.github.io/p/css%E4%B8%AD%E9%A2%9C%E8%89%B2%E5%92%8C%E5%AD%97%E4%BD%93%E7%9A%84%E5%B1%9E%E6%80%A7/'>
 <meta property='og:site_name' content='Shinku'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-09-21T19:55:03&#43;08:00'/><meta property='article:modified_time' content='2024-09-21T19:55:03&#43;08:00'/>
-<meta name="twitter:title" content="Css">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="CSS中颜色和字体的属性">
+<meta name="twitter:description" content="颜色的属性 颜色的表示方法一：颜色名 1 2 3 4 p{ /* 颜色的第一种表示方式，直接使用颜色名字，这种方法基本不用*/ color: red; } 颜色的表示方法二：rgb，rgba 1 2 3 4 5 6 7 8 /* 颜色的第二种表示方式，使用rgb，可以填充数字也可以填充百分比 r表示红色，g表示绿色，b表示蓝色 a表示透明度*/ h1{ color:rgba(5,23,12,20); } h2{ color:rgb(12%,13%,14%) } 颜色的表示方法三：十六进制 格式为 #rrggbb(aa) , 如果表示颜色的前两位相同，比如ff，可以简写成一个。如果前三个颜色简写，那么透明度也要进行简写\n">
     </head>
     <body class="
     article-page
@@ -263,7 +263,45 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#颜色的属性">颜色的属性</a>
+      <ol>
+        <li><a href="#颜色的表示方法一颜色名">颜色的表示方法一：颜色名</a></li>
+        <li><a href="#颜色的表示方法二rgbrgba">颜色的表示方法二：rgb，rgba</a></li>
+        <li><a href="#颜色的表示方法三十六进制">颜色的表示方法三：十六进制</a></li>
+        <li><a href="#颜色的表示方法四hsl或hsla">颜色的表示方法四：HSL或HSLA</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -274,7 +312,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/css/">Css</a>
+            <a href="/p/css%E4%B8%AD%E9%A2%9C%E8%89%B2%E5%92%8C%E5%AD%97%E4%BD%93%E7%9A%84%E5%B1%9E%E6%80%A7/">CSS中颜色和字体的属性</a>
         </h2>
     
         
@@ -311,7 +349,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 0 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -326,7 +364,77 @@
     <section class="article-content">
     
     
-    
+    <h2 id="颜色的属性">颜色的属性
+</h2><h3 id="颜色的表示方法一颜色名">颜色的表示方法一：颜色名
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">p</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="c">/* 颜色的第一种表示方式，直接使用颜色名字，这种方法基本不用*/</span>
+</span></span><span class="line"><span class="cl">       <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="颜色的表示方法二rgbrgba">颜色的表示方法二：rgb，rgba
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl">        <span class="c">/* 颜色的第二种表示方式，使用rgb，可以填充数字也可以填充百分比 r表示红色，g表示绿色，b表示蓝色 a表示透明度*/</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">h1</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">color</span><span class="p">:</span><span class="nb">rgba</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">23</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">20</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">		
+</span></span><span class="line"><span class="cl"><span class="nt">h2</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">color</span><span class="p">:</span><span class="nb">rgb</span><span class="p">(</span><span class="mi">12</span><span class="kt">%</span><span class="p">,</span><span class="mi">13</span><span class="kt">%</span><span class="p">,</span><span class="mi">14</span><span class="kt">%</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="颜色的表示方法三十六进制">颜色的表示方法三：十六进制
+</h3><p>格式为 #rrggbb(aa) , 如果表示颜色的前两位相同，比如ff，可以简写成一个。如果前三个颜色简写，那么透明度也要进行简写</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">name</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">color</span><span class="p">:</span> <span class="mh">#E5EAF3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="颜色的表示方法四hsl或hsla">颜色的表示方法四：HSL或HSLA
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"> <span class="c">/* 颜色的第四种表示方式，使用hsl，hue表示色相，saturation表示饱和度，lightness表示亮度,色相是用角度来表示的 
+</span></span></span><span class="line"><span class="cl"><span class="c">hsla是在hsl的基础上，加上透明度*/</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">color</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl"> 	<span class="k">color</span><span class="p">:</span> <span class="nb">hsl</span><span class="p">(</span><span class="mi">0</span><span class="kt">deg</span><span class="p">,</span> <span class="mi">50</span><span class="kt">%</span><span class="p">,</span> <span class="mi">50</span><span class="kt">%</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
